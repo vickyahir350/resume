@@ -1,0 +1,654 @@
+@media (max-width: 768px) {
+    .dogle-icon {
+        display: block;
+
+
+    }
+
+    .dogle-icon img {
+        position: relative;
+
+    }
+
+    .cross-icon img {
+        display: none;
+        position: absolute;
+        width: 3vw;
+        height: 4vw;
+        color: white !important;
+        margin-left: 30vw;
+
+    }
+
+    .navbar-fluid ul {
+        display: none;
+        position: absolute;
+        z-index: 0;
+        top: 10vh;
+        background-color: rgba(0, 0, 0, 0.419);
+        gap: 15px;
+        left: 65vw;
+        animation-name: dropdown;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+    }
+
+    .navbar-fluid ul a {
+        margin-right: 9vh;
+        font-size: 25px;
+    }
+
+    .navbarbuttone {
+        position: relative;
+        left: 80vw;
+        top: 2vh;
+    }
+
+    .logo {
+        position: relative;
+        left: 34vw;
+        height: 5.9vh;
+        width: 5.2vw;
+        top: 5vh;
+        z-index: 1;
+    }
+
+    .logotext {
+        position: relative;
+        left: 40vw;
+        z-index: 1;
+        /* top: 2vh; */
+    }
+
+    .text h1 {
+        position: relative;
+        margin-left: 15vh;
+    }
+
+    .imgandtext {
+        position: relative;
+        top: 100vw;
+        width: 80vw;
+        left: 24vw;
+    }
+
+    .imgandtext img {
+        position: relative;
+        left: 27vw;
+        margin-bottom: 5vh;
+    }
+
+    .text {
+        position: relative;
+        bottom: 24vh;
+    }
+
+    .text .destination {
+        position: relative;
+        left: 41.5vw;
+        bottom: 11.5vh;
+    }
+
+    .text .worldtext {
+        position: relative;
+        bottom: 12vh;
+        color: black;
+        left: 15vw;
+    }
+
+    .text h2 {
+        position: relative;
+        bottom: 91vh;
+        left: 31vw;
+    }
+
+    .text .possible {
+        position: relative;
+        left: 11.5vw;
+        color: black;
+    }
+
+    .main-img-btn {
+        position: relative;
+        bottom: 85vh;
+        left: 38vw;
+    }
+
+    .imgmain {
+        position: relative;
+        right: 15vw;
+        z-index: -1;
+    }
+
+    .tripad {
+        position: relative;
+        top: 19vh;
+        left: 45vh;
+    }
+
+    .expedia {
+        position: relative;
+        top: 19vh;
+        left: 55vh;
+    }
+
+    .boking {
+        position: relative;
+        top: 19vh;
+        left: 63vh;
+    }
+
+    .airr {
+        position: relative;
+        top: 30vh;
+        right: 5vw;
+    }
+
+    .grab {
+        position: relative;
+        top: 30vh;
+        right: 5vw;
+    }
+
+    .servicetext h1 {
+        position: relative;
+        left: 61vw;
+    }
+
+    .servicetext h2 {
+        margin-left: 25vw;
+    }
+
+    .servicetext span {
+        color: black;
+        position: relative;
+        left: 33vw;
+        bottom: 7vh;
+    }
+
+    .servicetext {
+        position: relative;
+        top: 60vh;
+        left: 10vw;
+        width: 100vw;
+    }
+
+    .guidimg {
+        position: relative;
+        top: 80vh;
+        right: 30vw;
+
+    }
+
+    .esyboking {
+        position: relative;
+        top: 36.5vh;
+        left: 35vw;
+    }
+
+    .fishosentext {
+        position: relative;
+        left: 35vw;
+        top: 30vh;
+    }
+
+    .beachimg {
+        position: relative;
+        top: 35vh;
+        left: -7vw;
+    }
+
+    .fishimg {
+        position: relative;
+        top: 35vh;
+        left: 2vw;
+    }
+
+    .mautaine {
+        position: relative;
+        top: 35vh;
+        right: -22vw;
+    }
+
+    .secmainimg {
+        margin-left: 37vw;
+    }
+
+    .travelertext {
+        margin-top: 110vh;
+    }
+
+    .travelertext h2 {
+        position: relative;
+        width: 90vw;
+        right: 30vw;
+    }
+
+    .travelertext span {
+        position: relative;
+        left: 47vw;
+        bottom: 7.5vh;
+    }
+
+    .travelertext h3 {
+        right: 30vw;
+        top: -5vh;
+        width: 100vw;
+        position: relative;
+        /* background-color: aqua; */
+        /* display: flex; */
+        /* bottom: 20vh; */
+    }
+
+    .travelertext span {
+        margin-top: 20vw;
+    }
+
+    .travelertext .popular {
+        position: relative;
+        top: -3.2vh;
+        left: 2vw;
+    }
+
+    .travelertext .BC {
+        position: relative;
+        /* right: 20vw; */
+        left: 32vw;
+    }
+
+    .hotelimg {
+        position: relative;
+        right: 10vw;
+    }
+
+    .slidehouseimg img {
+        position: relative;
+        width: 100vw;
+        height: 110vh;
+        right: 11vh;
+    }
+
+    .housetext {
+        position: relative;
+        top: 110vh;
+        width: 100vw;
+        left: 30vw;
+        /* background-color: aqua; */
+    }
+
+    .housetext h1 {
+        margin-left: 50vh;
+    }
+
+    .housetext h2 {
+        margin-left: 35vw;
+        margin-top: 2vh;
+    }
+
+    .housetext h3 {
+        display: none;
+
+    }
+
+    .housetext h4 {
+        display: block;
+        color: var(--grey-scale-black-50, rgba(25, 24, 37, 0.50));
+        /* text-align: center; */
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        position: relative;
+        left: 15vw;
+    }
+
+    .housetext span {
+        position: relative;
+        left: 28vw;
+    }
+
+    .locationimg {
+        position: relative;
+        top: 10vh;
+        left: 10vw;
+    }
+
+    .airtoptext {
+        position: relative;
+        top: 100vh;
+    }
+
+    .fotertextbox {
+        position: relative;
+        top: 100vh;
+    }
+
+    .lastpagetext {
+        position: relative;
+        top: 50vh;
+
+    }
+
+    .airtoptext h1 {
+        position: relative;
+        left: 35vw;
+    }
+
+    .airtoptext h2 {
+        position: relative;
+        left: 35vw;
+    }
+
+    .airtoptext h3 {
+        position: relative;
+        left: 35vw;
+    }
+
+    .vrimg {
+        margin-left: 80vh;
+    }
+
+    .startimg {
+        margin-left: 75vh;
+    }
+
+
+
+    .airtoptext h4 {
+        display: none;
+    }
+
+    .airtoptext h5 {
+
+        display: block;
+        color: var(--grey-scale-black-50, black);
+        /* text-align: center; */
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        position: relative;
+        left: 55vw;
+        margin-top: 5vh;
+    }
+
+    .lastpagetext {
+        position: relative;
+        top: 75vh;
+        left: 35vw;
+    }
+
+    .lastpagetext button {
+        margin-top: -7vh;
+    }
+
+    .h2fotertext h2 {
+        position: relative;
+        top: 70vh;
+    }
+
+    .fotertextbox {
+        position: relative;
+        top: 60vh;
+        right: 15vw;
+    }
+
+    .fotertextbox .logo {
+        position: relative;
+        left: 18vw;
+    }
+
+    .fotertextbox h1 {
+        position: relative;
+        left: 4vw;
+        top: -0.5vh;
+    }
+
+    .h2fotertext h2 {
+        display: none;
+    }
+
+    .h2fotertext h3 {
+        display: block;
+        color: var(--grey-scale-black-50, black);
+        font-family: Circular Std;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 160%;
+        /* 36.8px */
+        position: relative;
+        top: 70vh;
+        background-color: aqua;
+        width: 160vw;
+        left: 7vw;
+    }
+
+    .links1 {
+        position: relative;
+        top: 90vh;
+        right: 40vw;
+    }
+
+    .links1 h1 {
+        font-size: 35px;
+    }
+
+    .links1 ul li a {
+        font-size: 30px;
+    }
+
+    .links2 {
+        position: relative;
+        top: 90vh;
+        left: 20vw;
+    }
+
+    .links2 h1 {
+        font-size: 35px;
+    }
+
+    .links2 ul {
+        margin-left: 2vw;
+    }
+
+    .links3 {
+        position: relative;
+        top: 90vh;
+        left: 65vw;
+    }
+
+    .links3 h1 {
+        font-size: 35px;
+    }
+
+    .links3 span {
+        position: absolute;
+    }
+
+    .links3 ul {
+        margin-left: 5vw;
+    }
+
+    .mobileresposive {
+        display: none;
+    }
+    .mobaileressertext{
+        display: none;
+    }
+}
+
+@keyframes dropdown {
+    0% {
+        transform: translateY(-50vh);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+@media (max-width: 426px) {
+    .navbarbuttone {
+        display: none;
+    }
+
+    .logotext .logo {
+        height: 6vh;
+        width: 10.8vw;
+        position: relative;
+        left: -30vw;
+        top: 8vh;
+    }
+
+    .logotext .logotext1 {
+        position: relative;
+        /* margin-right: 0vw; */
+        margin-left: -58vw;
+        font-size: 35px;
+        top: 1.9vh;
+
+    }
+
+    .dogle-icon img {
+        position: relative;
+        /* left: 190vw; */
+        right: -245vw;
+        height: 10vh;
+        width: 15vw;
+        top: 5vh;
+    }
+
+    .navbar-fluid .ultags {
+        width: 90vw;
+        margin-left: 20vw;
+    }
+
+    .navbar-fluid .ultags a {
+        /* margin-left: 20vw; */
+    }
+
+    .ultags li {
+        /* background-color: aqua; */
+        width: 90vw;
+        margin-right: 20vw;
+    }
+
+    .navbar-fluid .ultags .cross-icon .cross {
+        margin-left: 70vw;
+        height: 6vh;
+        width: 10vw;
+    }
+
+    .imgandtext {
+        position: relative;
+        top: 110vh;
+    }
+
+    .imgandtext img {
+        position: relative;
+        left: 50vw;
+    }
+
+    .text .des-header {
+        display: none;
+    }
+
+   .text .mobileresposive {
+        display: block;
+        color: var(--grey-scale-black-50, black);
+        /* text-align: center; */
+        font-family: Inter;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        width: 190vw;
+        position: relative;
+        left: 60vw;
+    }
+  .text h2{
+    /* background-color: aqua; */
+    width: 130vw;
+    /* margin-tovh; */
+    margin-top: 10.5vh;
+    margin-left: 25vw;
+  }
+  .text .possible{
+    margin-left: 20vw;
+  }
+  .main-img-btn{
+    margin-left: 40vw;
+    width: 80vw;
+    /* background-color: aqua; */
+  }
+  .tripad{
+    margin-left: -30vw;
+  }
+  .expedia{
+    /* margin-left: -5vw; */
+    margin-left: 10vw;
+  }
+  .boking{
+    margin-left: 35vw;
+  }
+  .airr{
+    margin-top: 2vh;
+    margin-left: 20vw;
+  }
+  .grab{
+    margin-left: 90vw;
+    margin-top: 2vh;
+  }
+  .servicetext h1{
+    margin-top: -20vw;
+    margin-left: 60vw;
+  }
+  .destoptext{
+    display: none;
+  }
+  .servicetext .mobaileressertext{
+    display: block;
+    width: 110vw;
+    font-size: 35px;
+    margin-left: 82vw;
+  }
+  .guidimg{
+    margin-left: 20vw;
+  }
+  .esyboking{
+    margin-left: 50vw;
+  }
+  .fishosentext h1{
+    margin-left: 52vw;
+    width: 80vw;
+  }
+  .fishosentext h2{
+    width: 200vw;
+  }
+  .fishimg{
+    margin-top: 100vh;
+  }
+  .secmainimg{
+    margin-left: 40vw;
+  }
+  .travelertext h1{
+    width: 80vw;
+    font-size: 30px;
+    margin-left: 30vw;
+  }
+  .travelertext h2{
+    width: 210vw;
+  }
+  .travelertext .tabletress{
+    display: none;
+  }
+  .travelertext .mobiletress{
+    font-size: 30px;
+    text-align: center;
+  }
+  .travelertext
+}
